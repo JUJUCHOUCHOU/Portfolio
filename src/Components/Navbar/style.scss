@@ -1,0 +1,30 @@
+@import 'src/Sass/BaseElements.scss';
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    .navBarLink{
+        
+        .navBarLink a{
+            width: 100%;
+            margin-left: 4%;
+            justify-content: space-between;
+            color: $DarkGrey;
+            &:active{
+                    border-bottom: 2px solid $Green;
+                }
+        }
+    }
+}
+
+@media (max-width:750px){
+    .navBar{
+        font-size: 12px;
+        padding-right: 0px;
+        .navBarImage{
+            width: 20%;
+        }
+    }
+}
