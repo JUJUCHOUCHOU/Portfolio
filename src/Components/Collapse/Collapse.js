@@ -11,7 +11,7 @@ const Collapse = ({ title, description, imageUrl, link }) => {
   return (
     <div className='CollapseCard'>
       <div className='CollapseHeader' onClick={handleToggle} style={{ cursor: 'pointer' }}>
-        <img src={imageUrl} className='CardImage' />
+        <img src={imageUrl} className='CardImage' alt="projets web"/>
         <h3 className={`CollapseTitle ${visible ? 'open' : ''}`}>
           {title} <i className={`fa-solid fa-angle-down ${visible ? 'open' : ''}`}></i>
         </h3>

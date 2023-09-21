@@ -1,1 +1,28 @@
 @import 'src/Sass/BaseElements.scss';
+
+.skillsContent{
+    .container{
+        display: flex;
+        align-items: center;
+        margin-left: 30%;
+        margin-bottom: 0.95%;
+        .icon{
+            margin-right: 1%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $DarkGrey;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: $LightBlue;
+        }
+        .containerText h3{
+            color: $Green;
+            font-size: medium;
+        }
+        .containerText p{
+            font-size: small;
+        }
+    }
+}

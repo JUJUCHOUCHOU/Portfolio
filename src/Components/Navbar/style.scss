@@ -1,30 +1,36 @@
-@import 'src/Sass/BaseElements.scss';
+@import "src/sass/BaseElements.scss";
 
-.navBar{
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 2%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  .navBarImage{
+    width: 10%;
+  }
+  .navBarLink {
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 2%;
-    .navBarLink{
-        
-        .navBarLink a{
-            width: 100%;
-            margin-left: 4%;
-            justify-content: space-between;
-            color: $DarkGrey;
-            &:active{
-                    border-bottom: 2px solid $Green;
-                }
-        }
+    justify-content: flex-end;
+    gap: 1%;
+    .activeLink, .inactiveLink {
+        color: $Green;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        display: inline-block;
+        &:active {
+            border-bottom: 2px solid $Green;
+      }
     }
+  }
 }
 
-@media (max-width:750px){
-    .navBar{
-        font-size: 12px;
-        padding-right: 0px;
-        .navBarImage{
-            width: 20%;
-        }
+@media (max-width: 750px) {
+  .navBar {
+    font-size: 12px;
+    .navBarImage {
+      width: 25%;
     }
+  }
 }
