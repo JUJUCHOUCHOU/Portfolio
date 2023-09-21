@@ -11,16 +11,16 @@ function Navbar(){
         <nav className="navBar">
             <img src={Logo} className='navBarImage' alt='Logo Julie Cohen'/>
             <div className="navBarLink">
-                <Link to="/" className={currentRoute === '/' ? 'activeLink' : 'inactiveLink'}>
+                <Link to="/" aria-label='link to welcome page' className={currentRoute === '/' ? 'activeLink' : 'inactiveLink'}>
                     Accueil
                 </Link>
-                <Link to="/SkillsPage" className={currentRoute === '/SkillsPage' ? 'activeLink' : 'inactiveLink'}>
+                <Link to="/SkillsPage" aria-label='link to skills page' className={currentRoute === '/SkillsPage' ? 'activeLink' : 'inactiveLink'}>
                     Compétences
                 </Link>
-                <Link to="/ProjectsPage" className={currentRoute === '/ProjectsPage' ? 'activeLink' : 'inactiveLink'}>
+                <Link to="/ProjectsPage" aria-label='link to projects page' className={currentRoute === '/ProjectsPage' ? 'activeLink' : 'inactiveLink'}>
                     Projets
                 </Link>
-                <Link to="/Contact" className={currentRoute === '/Contact' ? 'activeLink' : 'inactiveLink'}>
+                <Link to="/Contact" aria-label='link to contact page' className={currentRoute === '/Contact' ? 'activeLink' : 'inactiveLink'}>
                     Contact
                 </Link>
             </div>

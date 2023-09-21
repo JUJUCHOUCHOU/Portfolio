@@ -1,1 +1,27 @@
 @import 'src/Sass/BaseElements.scss';
+
+.CollapseTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -5%;
+    padding: 2%;
+    color: $Green;
+}
+.collapseContent{
+    padding: 3%;
+    font-size: 13px; 
+    .githubLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+        padding: 2%;
+        background-color: $Grey;
+        border-radius: 25px;
+        .CardLink{
+            text-decoration: none;
+            color: $Green;
+            font-size: 18px;
+        }
+    }
+}

@@ -12,7 +12,7 @@ function ProjectsPage() {
         {DataProjects.map((item) => (
           <div className="projectCard" 
           key={item.id}>
-            <img src={item.cover} alt={item.title} className="projectImage" />
+            <img src={item.cover} alt={item.title} aria-label="" className="projectImage" />
             <Collapse 
             title={item.title} 
             description={item.description} 
