@@ -1,17 +1,30 @@
 @import 'src/Sass/BaseElements.scss';
 
+@keyframes slide {
+    0% {
+    transform: translateY(-200px);
+    opacity: 0;
+    }
+    100% {
+    transform: translateY(0);
+    opacity: 1;
+    }
+}
+
 .skillsContent{
+    margin: 1% 0%;
+    animation: slide 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
     .container{
         display: flex;
         align-items: center;
         margin-left: 30%;
-        margin-bottom: 0.95%;
+        margin-bottom: 1%;
         .icon{
             margin-right: 1%;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: $DarkGrey;
+            background-color: $Green;
             width: 40px;
             height: 40px;
             border-radius: 50%;
