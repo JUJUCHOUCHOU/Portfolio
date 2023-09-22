@@ -8,9 +8,9 @@ function Notfound(){
         <div className="Notfound">
             <Navbar/>
             <div className="notFoundMain">
-                <h1>Oups!</h1>
-                <h6>La page que vous recherchez semble introuvable ...</h6>
-                <Link className='NotfoundLink' to='/'>Retournez sur la page d'accueil.</Link>
+                <h1 className="notFoundOups">Oups!</h1>
+                <h6 className="notFoundText">La page que vous recherchez semble introuvable ...</h6>
+                <Link className='notFoundLink' to='/'>Retournez sur la page d'accueil.</Link>
             </div>
             <Footer/>
         </div>

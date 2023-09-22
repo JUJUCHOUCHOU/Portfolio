@@ -1,1 +1,21 @@
 @import 'src/Sass/BaseElements.scss';
+
+.notFoundMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9% 0%;
+    .notFoundOups{
+        color: $Green;
+        font-size: 53px;
+        font-weight: bold;
+    }
+    .notFoundText{
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .notFoundLink{
+        color: $Green;
+    }
+}
