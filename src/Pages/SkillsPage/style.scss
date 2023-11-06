@@ -1,0 +1,63 @@
+@import 'src/Sass/BaseElements.scss';
+
+@keyframes slide {
+    0% {
+    transform: translateY(-200px);
+    opacity: 0;
+    }
+    100% {
+    transform: translateY(0);
+    opacity: 1;
+    }
+}
+
+@keyframes growIcon {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.3); 
+    }
+}
+
+.skillsContent{
+    margin: 1% 0%;
+    animation: slide 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+    .container{
+        display: flex;
+        align-items: center;
+        margin-left: 30%;
+        margin-bottom: 1%;
+        .icon{
+            margin-right: 1%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $Green;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: $LightBlue;
+            &:hover{
+            animation: growIcon 1s ease-in-out;
+            }
+        }
+        .containerText h3{
+            color: $Green;
+            font-size: medium; 
+        }
+        .containerText p{
+            font-size: small;
+        }
+    }
+}
+@media (max-width: 750px){
+   .skillsContent{
+    .container{
+        margin: 3% ;
+        .containerText{
+            width: 70%;
+        }
+    }
+   }
+}

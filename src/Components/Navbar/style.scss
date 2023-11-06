@@ -1,0 +1,36 @@
+@import "src/sass/BaseElements.scss";
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 2%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  .navBarImage{
+    width: 12%;
+  }
+  .navBarLink {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1%;
+    .activeLink, .inactiveLink {
+        color: $Green;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        display: inline-block;
+        &:active {
+            border-bottom: 2px solid $Green;
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .navBar {
+    font-size: 12px;
+    .navBarImage {
+      width: 25%;
+    }
+  }
+}
