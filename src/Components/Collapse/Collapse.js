@@ -15,7 +15,7 @@ const Collapse = ({ title, description, imageUrl, link }) => {
         onClick={handleToggle}
         style={{ cursor: "pointer" }}
       >
-        <img src={imageUrl} className="CardImage" />
+        <img src={imageUrl} className="CardImage" alt="project image"/>
         <h3 className={`CollapseTitle ${visible ? "open" : ""}`}>
           {title}{" "}
           <i
@@ -30,7 +30,7 @@ const Collapse = ({ title, description, imageUrl, link }) => {
       >
         {description}
         <div className="githubLink">
-        <a href={link} className="CardLink"target="_blank">
+        <a href={link} className="CardLink"target="_blank"rel="noreferrer">
           Lien Ici!
         </a>
         </div>
