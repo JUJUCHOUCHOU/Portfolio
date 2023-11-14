@@ -2,7 +2,7 @@ const data =[
     {
         "id":"1",
         "title":"Création",
-        "content":"Codage de sites conformes au standards et bonnes pratiques.",
+        "content":"Codage de sites conformes aux standards et bonnes pratiques.",
         "icon":<i class="fa-brands fa-html5"></i>,
     },
     {
@@ -20,7 +20,7 @@ const data =[
     {
         "id":"4",
         "title":"React.Js",
-        "content":"Utilisation de la Bibliothèque React.js et Redux Pour réaliser des sites performants et évolutifs.",
+        "content":"Utilisation de la Bibliothèque React.js et Redux pour réaliser des sites performants et évolutifs.",
         "icon":<i class="fa-brands fa-react"></i>,
     },
     {

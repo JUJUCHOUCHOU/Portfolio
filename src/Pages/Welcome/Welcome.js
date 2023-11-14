@@ -17,7 +17,7 @@ function Welcome(){
                     <h3 className='parcours'>Mon parcours...</h3>
                     </div>
                     </div>
-                    <p className='text'>"Aprés avoir travaillé en grande distribution et dans les services à la personne, j'ai décidé de faire une reconversion professionnelle comme intégrateur web avec OpenClassrooms, ce qui m'as permis de confirmer mes choix d'orientation dans ce domaine si vaste."</p>
+                    <p className='text'>"Après avoir travaillé en grande distribution et dans les services à la personne, j'ai décidé de faire une reconversion professionnelle comme intégrateur web avec OpenClassrooms, ce qui m'a permis de confirmer mes choix d'orientation dans ce domaine si vaste."</p>
                 </div>
             </main>
             <Footer />

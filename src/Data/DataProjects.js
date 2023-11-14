@@ -10,14 +10,14 @@ const dataProjects = [
     title: "Booki",
     cover: Booki,
     link: "https://github.com/JUJUCHOUCHOU/P3Booki",
-    description: "Projet 3 OpenClassrooms réalisé en HTML et CSS, cette page vitrine compatible tablette et mobile d'une agence de voyage de Marseille m'as permis de découvrir les bases du code et du CSS.",
+    description: "Projet 3 OpenClassrooms réalisé en HTML et CSS, cette page vitrine compatible tablette et mobile d'une agence de voyage de Marseille m'a permis de découvrir les bases du code et du CSS.",
   },
   {
     id: "2",
     title: "Oh my food",
     cover: Ohmyfood,
     link: "https://github.com/JUJUCHOUCHOU/P4ohmyfood",
-    description: "Projet 4 OpenClassrooms d'une page codée en Mobile first qui répertorie des pages de menus où sont ajoutés des éléments d'animations tels qu'un coeur, une page de chargement et un bouton de validation, ce projet m'as fait découvrir l'animation des sites.",
+    description: "Projet 4 OpenClassrooms d'une page codée en Mobile first qui répertorie des pages de menus où sont ajoutés des éléments d'animations tels qu'un coeur, une page de chargement et un bouton de validation, ce projet m'a fait découvrir l'animation des sites.",
   },
   {
     id: "3",
@@ -31,7 +31,7 @@ const dataProjects = [
     title: "Nina Carducci",
     cover: NinaCarducci,
     link: "https://github.com/JUJUCHOUCHOU/P9Nina-Carducci",
-    description: "Projet 9 OpenClassrooms d'optimisation des performances, de l'accessibilité et du SEO du site de la photographe Nina Carducci, ce projet me permet désormais de proposer des sites plus performants et accéssibles à tous les publics. ",
+    description: "Projet 9 OpenClassrooms d'optimisation des performances, de l'accessibilité et du SEO du site de la photographe Nina Carducci, ce projet me permet désormais de proposer des sites plus performants et accessibles à tous les publics. ",
   },
   {
     id: "5",
