@@ -17,7 +17,7 @@ const dataProjects = [
     title: "Oh my food",
     cover: Ohmyfood,
     link: "https://github.com/JUJUCHOUCHOU/P4ohmyfood",
-    description: "Projet 4 OpenClassrooms d'une page codée en Mobile first qui répertorie des pages de menus où sont ajoutés des éléments d'animations tels qu'un coeur, une page de chargement et un bouton de validation, ce projet m'a fait découvrir l'animation des sites.",
+    description: "Projet 4 OpenClassrooms d'une page codée HTML et CSS en Mobile first qui répertorie des pages de menus où sont ajoutés des éléments d'animations tels qu'un coeur, une page de chargement et un bouton de validation, ce projet m'a fait découvrir l'animation des sites.",
   },
   {
     id: "3",
